@@ -24,6 +24,8 @@ models:
           - not_null
       - name: SALESPERSON
         description: "Nombre del vendedor."
+        tests:
+          - not_null        
 
   - name: fact_monthly_sales
     description: "Tabla de hechos de ventas mensuales por vendedor y marca."
